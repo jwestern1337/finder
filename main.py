@@ -1,4 +1,4 @@
-import requests, os, threading, datetime
+import requests, os, threading
 from rich import print
 
 
@@ -27,7 +27,6 @@ def main():
 """)
     username = input('Username: ')
     print(f"[+] Searching for {username} on 37 sites...")
-    before = datetime.datetime.now().strftime('%H:%M:%S')
     socials = [
         f"https://www.picuki.com/profile/{username}", # instagram
         f"https://www.facebook.com/{username}",

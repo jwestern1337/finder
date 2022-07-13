@@ -30,7 +30,7 @@ def main():
     socials = [
         f"https://www.picuki.com/profile/{username}", # instagram
         f"https://www.facebook.com/{username}",
-        f"https://www.twitter.com/{username}", # twitter
+        f"https://www.twitter.com/{username}",
         f"https://www.youtube.com/channel/{username}",
         f"https://www.t.me/{username}", # telegram
         f"https://www.linkedin.com/{username}",
